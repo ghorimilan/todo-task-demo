@@ -105,7 +105,7 @@
 
         <br>
 
-        <div class="col-sm-8 text-left" style="padding-top: 20px;font-size: 16px">
+        <div class="col-sm-12 text-left" style="padding-top: 20px;font-size: 16px">
             <ul class="list-group" style="width: 100%">
                 <li class="list-group-item list-group-item-dark" ng-repeat="(key,todo) in todoList">
                     <div class="form-check">
@@ -122,7 +122,7 @@
             </ul>
         </div>
 
-        <div class="col-sm-8" style="padding-top: 20px">
+        <div class="col-sm-12" style="padding-top: 20px">
             <a class="btn btn-primary" ng-click="selectAll()" ng-if="todoList.length > 0">Select All</a>
             <a class="btn btn-primary" ng-click="unselectAll()" ng-if="todoList.length > 0">UnSelect All</a>
             <a class="btn btn-danger" ng-click="removeMarked()" ng-if="todoList.length > 0">Remove marked</a>
